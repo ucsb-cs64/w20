@@ -1,5 +1,5 @@
 ---
-title: CS64, Winter 2020, zmatni
+title: CS64, Winter 2020, UCSB, zmatni
 ---
 
 # {{site.course}}, {{site.quarter}}
