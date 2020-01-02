@@ -1,2 +1,2 @@
-# w20
-Repo for CS64 class material (Winter 2020, UCSB)
+# ucsb-cs64-f18.github.io
+Repository for CS64, Fall 2018, Matni
