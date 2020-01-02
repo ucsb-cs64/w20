@@ -4,6 +4,7 @@ title: CS64, Winter 2020, UCSB, zmatni
 
 # {{site.course}}, {{site.quarter}}
 
+## Computer Organization and Digital Logic Design
 ## Prof. Ziad Matni
 
 ## <span style="color:green">Course Information</span>
