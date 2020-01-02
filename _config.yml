@@ -26,7 +26,7 @@ quarter: "Winter 2020"
 
 
 start_week: 1
-start_date: 2020-01-06 00:00:00.00-8:00
+start_date: 2020-01-05 00:00:00.00-8:00
 num_weeks: 10
 extra_exam_week: true
 
