@@ -18,7 +18,7 @@ Questions? Post them on Piazza!
 
 {% include lecnot_table.html %}
 
-## Labs
+## Lab Assignments
 
 NOTE: All labs must be submitted using Gradescope, unless specified otherwise.
 
