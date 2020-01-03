@@ -8,7 +8,7 @@ home:
 offerings:
    title: "W20"
    url: /	
-   baseurl: /f19
+   baseurl: /w20
    items:
       - title: "W20"
         url: /
