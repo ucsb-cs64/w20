@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>vi Tutorial</title>
+  </head>
+
+  <body>
+    <h1><code>vi</code> Tutorial</h1>
+    <hr>
+
+    <p>
+      <code>vi</code> has two modes - command mode and insert mode.
+      In command mode, you are not directly typing text into the file.
+      Instead, you are giving commands like delete a single line, delete several lines, paste several lines, replace all instances of &ldquo;<code>hello</code>&rdquo; with &ldquo;<code>howdy</code>&rdquo;, save the file, quit, move the cursor, and so on.
+      At any time, to get into command mode, you hit the <code>esc</code> key.
+      In insert mode, you can type normally.
+    </p>
+
+    <p>There are a few ways to get into command mode:</p>
+    <ul>
+      <li><code>i</code>: insert text at the cursor</li>
+      <li><code>a</code>: insert the text immediately following the cursor</li>
+      <li><code>o</code> (lowercase letter): makes a new line for text after the cursor</li>
+      <li><code>O</code> (uppercase letter): makes a new line for text before the cursor</li>
+    </ul>
+
+    <p>Below is a set of very useful <code>vi</code> commands which apply in command mode:</p>
+    <h3>Moving the Cursor Around</h3>
+    <ul>
+      <li>Use arrow keys</li>
+      <li><code>h</code>: move left</li>
+      <li><code>l</code>: move right</li>
+      <li><code>k</code>: move up</li>
+      <li><code>j</code>: move down</li>
+      <li><code>G</code>: go to the end of the file</li>
+      <li><code>/hello</code>: go to the next instance of &ldquo;<code>hello</code>&rdquo; in the file</li>
+    </ul>
+
+    <h3>Moving Text Around</h3>
+    <ul>
+      <li><code>dd</code>: delete the current line of text</li>
+      <li><code>p</code>: paste the last deleted text below the cursor</li>
+      <li><code>P</code>: paste the last deleted text above the cursor</li>
+      <li><code>J</code>: tack next line to end of current line</li>
+    </ul>
+
+    <h3>Inserting Text</h3>
+    <p>Note that these all move into <b>insert</b> mode.</p>
+    <ul>
+      <li><code>a</code>: insert after current cursor spot</li>
+      <li><code>i</code>: insert before current cursor spot</li>
+      <li><code>I</code>: insert text at the beginning of current line</li>
+      <li><code>o</code> (lowercase letter): insert blank line after cursor</li>
+      <li><code>O</code> (uppercase letter): insert blank line before cursor</li>
+    </ul>
+    
+    <h3>Saving Files and Quitting</h3>
+    <p>Note the use of the <b>colon</b> (<code>:</code>) before these commands.</p>
+    <ul>
+      <li><code>:w</code>: saves the file</li>
+      <li><code>:q</code>: quits the program</li>
+      <li><code>:q!</code>: quits program without saving</li>
+      <li><code>:wq</code>: saves the file and quits the program</li>
+    </ul>
+
+    <h3>Useful Complicated Commands</h3>
+    <p>Note the use of the <b>colon</b> (<code>:</code>) before these commands.</p>
+    <ul>
+      <li><code>:%s/hello/howdy/g</code>: replaces all instances of &ldquo;<code>hello</code>&rdquo; with &ldquo;<code>howdy</code>&rdquo;</li>
+      <li><code>:5,7s/hello/howdy/g</code>: replaces all instances of &ldquo;<code>hello</code>&rdquo; in lines <code>5</code> through <code>7</code> with &ldquo;<code>howdy</code>&rdquo;</li>
+    </ul>
+
+    <hr>
+
+<blockquote>
+  <p>Prepared for Computer Science 64 by Prof. Diana Franklin, with slight adaptation by Kyle Dewey.</p>
+</blockquote>
+  </body>
+</html>
