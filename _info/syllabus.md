@@ -22,7 +22,7 @@ Office: SSMS 4409<br/><br/>
 | **TA** | **Email** | **Office Hours** |
 |---|---|---|
 | Kunlong Liu | <kunlongliu@ucsb.edu> | office hours: Tue., 3 - 5 PM, in Trailer 936|
-| Michael Christensen | <mchristensen@ucsb.edu> | office hours: Tue., 11 AM - 1 PM, in Trailer 936|
+| Michael Christensen | <mchristensen@ucsb.edu> | office hours: Tue., 10 AM - 12 PM, in Trailer 936|
 | Shu Yang (reader) | <shuyang1995@ucsb.edu> | No office hours.|
 
 Trailer 936 is located behind the Phelps building.
