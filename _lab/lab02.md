@@ -55,9 +55,9 @@ mkdir lab2
 ```
 
 <p>Then go into that directory.</p>
-<p>Now copy over all of the files necessary for this week's tasks (there are 6 in total): '</p>
+<p>Now copy over all of the files necessary for this week's tasks (there are 6 in total): </p>
 ```
-cp ~zmatni/public_html/cs64f19/labs/2/* .
+cp ~zmatni/public_html/cs64w20/labs/2/* .
 ```
 
 <p>
