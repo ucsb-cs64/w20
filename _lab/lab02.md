@@ -196,6 +196,8 @@ gcc Random*.c
  Instructions for compiling with the test suite, along with running it, are directly in <code>RandomCodeTester.c</code>.
  Note that this is **not** intended as a comprehensive test suite, but is instead there to make sure you are on the right track.
  You are encouraged to add your own tests to this suite.
+
+ **IMPORTANT:** ***You may NOT use if, for, while instructions, nor create recursive functions, nor use arrays.***
 </p>
 
 
