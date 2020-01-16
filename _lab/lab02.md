@@ -73,7 +73,7 @@ chmod 664 *
 ```
 
 <p>You have THREE (3) main tasks and each has it's sub-tasks or problems. They are as follows: </p>
-* Do the 25 problems in the lab02.pdf file. Submit your PDF file with solutions to Gradescope.
+* Do the 27 problems in the lab02.pdf file. Submit your PDF file with solutions to Gradescope.
 * Do the Bitwise Operations in C/C++ problems described below. Submit your solution code (as a .c file) to Gradescope (autograder).
 * Do the intro to MIPS exercise described below.
 
