@@ -23,10 +23,10 @@ due: 2020-01-21 23:59:59.00-7
 **Provided files:**
 <ul>
  <li><a href="{{'/lab/lab02/lab02.pdf' | relative_url }}"><code>lab02.pdf</code></a></li>
- <li><a href="{{'/lab/lab02/DecodeCode.h' | relative_url }}"><code>DecodeCode.h</code></a></li>
- <li><a href="{{'/lab/lab02/DecodeCode.c' | relative_url }}"><code>DecodeCode.c</code></a></li>
- <li><a href="{{'/lab/lab02/DecodeMain.c' | relative_url }}"><code>DecodeMain.c</code></a></li>
- <li><a href="{{'/lab/lab02/DecodeCodeTester.c' | relative_url }}"><code>DecodeCodeTester.c</code></a></li>
+ <li><a href="{{'/lab/lab02/RandomCode.h' | relative_url }}"><code>RandomCode.h</code></a></li>
+ <li><a href="{{'/lab/lab02/RandomCode.c' | relative_url }}"><code>RandomCode.c</code></a></li>
+ <li><a href="{{'/lab/lab02/RandomMain.c' | relative_url }}"><code>RandomMain.c</code></a></li>
+ <li><a href="{{'/lab/lab02/RandomCodeTester.c' | relative_url }}"><code>RandomCodeTester.c</code></a></li>
  <li><a href="{{'/lab/lab02/spimtutorial.txt' | relative_url }}"><code>spimtutorial.txt</code></a></li>
  <li><a href="{{'/lab/lab02/mipsdemo.asm' | relative_url }}"><code>mipsdemo.asm</code></a></li>
 </ul>
@@ -73,7 +73,7 @@ chmod 664 *
 ```
 
 <p>You have THREE (3) main tasks and each has it's sub-tasks or problems. They are as follows: </p>
-* Do the 25 problems in the lab02.pdf file. Submit your PDF file with solutions to Gradescope.
+* Do the 27 problems in the lab02.pdf file. Submit your PDF file with solutions to Gradescope.
 * Do the Bitwise Operations in C/C++ problems described below. Submit your solution code (as a .c file) to Gradescope (autograder).
 * Do the intro to MIPS exercise described below.
 
@@ -83,10 +83,6 @@ chmod 664 *
 
 <h2>Task 2: Bitwise Operations in C/C++</h2>
 <p>In this task, you will write some high-level language code using C/C++ bitwise logic operations.</p>
-
-
-<h2>Task 3: Intro to MIPS</h2>
-Let's start with familiarizing ourselves with the basics of the process, then we'll get into specifics.
 
 <h3>Step 1: Familiarizing Yourself With the Files and Compilation Process</h3>
 <p>
