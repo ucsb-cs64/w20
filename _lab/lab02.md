@@ -84,10 +84,6 @@ chmod 664 *
 <h2>Task 2: Bitwise Operations in C/C++</h2>
 <p>In this task, you will write some high-level language code using C/C++ bitwise logic operations.</p>
 
-
-<h2>Task 3: Intro to MIPS</h2>
-Let's start with familiarizing ourselves with the basics of the process, then we'll get into specifics.
-
 <h3>Step 1: Familiarizing Yourself With the Files and Compilation Process</h3>
 <p>
  There should be three files in your directory starting with the word <code>Random</code>.
