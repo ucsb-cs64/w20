@@ -27,7 +27,6 @@ due: 2020-01-21 23:59:59.00-7
  <li><a href="{{'/lab/lab02/RandomCode.c' | relative_url }}"><code>RandomCode.c</code></a></li>
  <li><a href="{{'/lab/lab02/RandomMain.c' | relative_url }}"><code>RandomMain.c</code></a></li>
  <li><a href="{{'/lab/lab02/RandomCodeTester.c' | relative_url }}"><code>RandomCodeTester.c</code></a></li>
- <li><a href="{{'/lab/lab02/spimtutorial.txt' | relative_url }}"><code>spimtutorial.txt</code></a></li>
  <li><a href="{{'/lab/lab02/mipsdemo.asm' | relative_url }}"><code>mipsdemo.asm</code></a></li>
 </ul>
 
