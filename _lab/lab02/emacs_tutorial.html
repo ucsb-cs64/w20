@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>emacs Tutorial</title>
+  </head>
+
+  <body>
+    <h1><code>emacs</code> Tutorial</h1>
+    <hr>
+
+    <p>
+      <code>emacs</code> is generally easier to pick up than <code>vi</code>, though this is open to debate.
+      For the most part, anything typed in will go into the file at the position the cursor is at.
+      The exception is if one holds down <code>control</code> (abbreviated as <code>Ctrl</code> through the rest of this document), meta (usually <code>alt</code>), or some combination of the two as something is typed in.
+      These allow for commands to be entered.
+      There are tons of commands <code>emacs</code> has built-in, and <code>emacs</code> can even be extended with custom commands, though for the purposes of this tutorial we will not be getting into any of that.
+      Generally, for your purposes, there are only a few commands that are necessary, which are described below.
+      In all these commands, the notation <code>Ctrl-foo</code> means, &ldquo;Hold down the control key, and type in <code>foo</code> while holding down the control key.&rdquo;
+      The notation <code>a b</code> means, &ldquo;Type in 'a' followed by 'b'.&rdquo;
+    </p>
+
+    <h2>Common <code>emacs</code> Commands</h2>
+
+    <h3>Moving the Cursor Around</h3>
+    <ul>
+      <li>Arrow keys: move the cursor around one position in whichever direction specified</li>
+      <li><code>Ctrl-a</code>: Moves the cursor to the start of the current line</li>
+      <li><code>Ctrl-e</code>: Moves the cursor to the end of the current line</li>
+      <li>
+        <code>Shift-Ctrl-,</code>: Moves the cursor to the start of the current file.
+        Technically, this command is <code>Ctrl-&lt;</code>, but shift needs to be held in order to enter <code>&lt;</code>.
+      </li>
+      <li>
+        <code>Shift-Ctrl-.</code>: Moves the cursor to the end of the current file.
+        Technically, this command is <code>Ctrl-&gt;</code>, but shift needs to be held in order to enter <code>&gt;</code>.
+      </li>
+    </ul>
+
+    <h3>Moving Text Around</h3>
+    <ul>
+      <li><code>Ctrl-k</code>: Delete the text from the cursor extending to the end of the line</li>
+      <li><code>Ctrl-y</code>: Paste the last deleted text at the current cursor position</li>
+      <li>
+        <code>Shift-Ctrl--</code>: Undo the last action.
+        Technically, this command is <code>Ctrl-_</code>, but shift needs to be held in order to enter <code>_</code>.
+      </li>
+    </ul>
+
+    <h3>Saving Files and Quitting</h3>
+    <ul>
+      <li><code>Ctrl-x s</code>: Saves the current file</li>
+      <li><code>Ctrl-xc</code>: Closes <code>emacs</code></li>
+    </ul>
+
+    <h3>Useful Complicated Commands</h3>
+    <ul>
+      <li>
+        <code>Ctrl-s foo</code>: Search for the string &ldquo;<code>foo</code>&rdquo; in the current file.
+        The search starts from wherever the cursor is currently at, and moves forward through the file, stopping at the end.
+        Note that it <b>will not</b> wrap through the start of the file, which is the same behavior as all the commands described here.
+        If you wish to go through the entire file, move the cursor to the start of the file first.
+        Subsequent presses of <code>Ctrl-s</code> will jump the cursor to different instances of &ldquo<code>foo</code>&rdquo;.
+        Moving the cursor around (as with the arrow keys) will return behavior to normal, as in, search will no longer be occurring.
+      </li>
+      <li>
+        <code>Ctrl-r foo</code>: Much like <code>Ctrl-s foo</code>, except the search moves <b>backward</b> from the cursor.
+        This does <b>not</b> mean that it looks for the reverse of &ldquo;<code>foo</code>&rdquo;, but rather that it searches through the part of the file from the start to the cursor, starting closest to the cursor.
+        Hitting <code>Ctrl-r</code> again will go through different instances.
+        Hitting <code>Ctrl-s</code> will behave as if <code>Ctrl-s foo</code> had been typed in from the current cursor position.
+        That is, <code>Ctrl-r</code> can be used to move backwards through different instances of &ldquo;<code>foo</code>&rdquo;, whereas <code>Ctrl-s</code> can be used to move forward through different instances of &ldquo;<code>foo</code>&rdquo;.
+      </li>
+      <li>
+        <code>Meta-x replace-string</code>: Can be used to find and replace one string with another, automatically.
+        Information regarding what strings are replaced comes up in a dialog at the bottom of the terminal (referred to as the &ldquo;minibuffer&rdquo; in <code>emacs</code> parlance).
+      </li>
+      <li>
+        <code>Meta-x query-replace</code>: Like <code>Meta-x replace-string</code>, except the user is asked whether they want to replace or not on each match.
+        This process starts from wherever the cursor is in the file, and stops at the end of the file.
+        Press '<code>n</code>' to skip to the next match (short for &ldquo;no&rdquo;), '<code>y</code>' to replace the current match (short for &ldquo;yes&rdquo;), and <code>Ctrl-g</code> to cancel.
+        There are actually more possibilities here than described; hit '<code>?</code>' to see a listing of them.
+      </li>
+    </ul>
+
+    <hr>
+    <blockquote>
+      <p>Prepared for Computer Science 64 by Kyle Dewey, with inspiration from a similar <a href="vi_tutorial.html"><code>vi</code> tutorial</a> by Prof. Diana Franklin.</p>
+    </blockquote>
+  </body>
+</html>
