@@ -23,10 +23,10 @@ due: 2020-01-21 23:59:59.00-7
 **Provided files:**
 <ul>
  <li><a href="{{'/lab/lab02/lab02.pdf' | relative_url }}"><code>lab02.pdf</code></a></li>
- <li><a href="{{'/lab/lab02/DecodeCode.h' | relative_url }}"><code>DecodeCode.h</code></a></li>
- <li><a href="{{'/lab/lab02/DecodeCode.c' | relative_url }}"><code>DecodeCode.c</code></a></li>
- <li><a href="{{'/lab/lab02/DecodeMain.c' | relative_url }}"><code>DecodeMain.c</code></a></li>
- <li><a href="{{'/lab/lab02/DecodeCodeTester.c' | relative_url }}"><code>DecodeCodeTester.c</code></a></li>
+ <li><a href="{{'/lab/lab02/RandomCode.h' | relative_url }}"><code>RandomCode.h</code></a></li>
+ <li><a href="{{'/lab/lab02/RandomCode.c' | relative_url }}"><code>RandomCode.c</code></a></li>
+ <li><a href="{{'/lab/lab02/RandomMain.c' | relative_url }}"><code>RandomMain.c</code></a></li>
+ <li><a href="{{'/lab/lab02/RandomCodeTester.c' | relative_url }}"><code>RandomCodeTester.c</code></a></li>
  <li><a href="{{'/lab/lab02/spimtutorial.txt' | relative_url }}"><code>spimtutorial.txt</code></a></li>
  <li><a href="{{'/lab/lab02/mipsdemo.asm' | relative_url }}"><code>mipsdemo.asm</code></a></li>
 </ul>
