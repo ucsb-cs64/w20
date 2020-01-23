@@ -41,8 +41,7 @@ due: 2020-01-28 23:59:59.00-7
 </ul>
 
 <p>
-  You may use any MIPS instructions or psuedoinstructions you want in order to implement these tasks.
-  However, you will be somewhat restricted on exams.
+  You may use any MIPS core instructions or approved pseudoinstructions in order to implement these tasks.
   You may want to read the <a href="{{'/lab/documentation/mips_instruction_policy.html' | relative_url }}">grading policies regarding MIPS assembly instructions</a> for more information.
 </p>
 
