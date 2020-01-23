@@ -3,13 +3,13 @@ layout: lab
 num: lab03
 ready: true
 desc: "Basic MIPS Assembly Programming"
-assigned: 2019-10-16 14:00:00.00-7
-due: 2019-10-23 23:59:59.00-7
+assigned: 2020-01-23 09:00:00.00-7
+due: 2020-01-28 23:59:59.00-7
 ---
 <div markdown='1'>
 <h1>Lab 3: Basic MIPS Assembly Programming</h1>
 <hr>
-<p>Due Wednesday, October 23rd at 11:59:59 PM</p>
+<p>Due Tuesday, January 28th at 11:59:59 PM</p>
 
 <h2>Goals for This Week</h2>
 <p>By the time you have completed this work, you should be able to use basic arithmetic and standard I/O calls in MIPS assembly.</p>
@@ -63,7 +63,7 @@ mkdir lab3
 <p>Then go into that directory.</p>
 <p>Now copy over all of the files necessary for this week's tasks:</p>
 <pre>
-cp ~zmatni/public_html/cs64f19/labs/3/hello.asm ~zmatni/public_html/cs64f19/labs/3/Arithmetic.asm .
+cp ~zmatni/public_html/cs64w20/labs/3/hello.asm ~zmatni/public_html/cs64w20/labs/3/Arithmetic.asm .
 </pre>
 <p>
   Note the use of the trailing <code>.</code> in the above command, which stipulates that the specified files should be copied into the current directory.
@@ -73,7 +73,7 @@ cp ~zmatni/public_html/cs64f19/labs/3/hello.asm ~zmatni/public_html/cs64f19/labs
 <h2>Task 1: Arithmetic Exercise</h2>
 <p>
   You will write an assembly program that will prompt the user for 3 inputs (let's abstractly call them
-  a, b, and c) without a leading string. It will then calculate the value of:  <code>2*(a - b) + 3*c</code>.</p>
+  a, b, and c) without a leading string. It will then calculate the value of:  <code>4*(a + b) - 5*c</code>.</p>
 <p>
   You can ONLY use the <code>mult</code> instruction ONCE!
   (You will lose half the points for this task if you do not follow this rule).
@@ -83,9 +83,9 @@ cp ~zmatni/public_html/cs64f19/labs/3/hello.asm ~zmatni/public_html/cs64f19/labs
 </p>
 <pre>
 <b>4</b>
-<b>-5</b>
-<b>7</b>
-39
+<b>-3</b>
+<b>2</b>
+-6
 </pre>
 <p>
   You should write your program in the provided <code>Arithmetic.asm</code> template file.
@@ -96,13 +96,13 @@ cp ~zmatni/public_html/cs64f19/labs/3/hello.asm ~zmatni/public_html/cs64f19/labs
   
 <h2>Task 2: Hello World</h2>
 <p>
-  You will write a type of Hello World program that will also get an integer input from the user and prints out two lines with newline characters at the end of each of them. A sample run of this program will look like this, with user input in <b>bold</b>:
+  You will write a type of Hello World program that will also get an integer input from the user and prints out two lines with newline characters at the end of each of them. A sample run of this program will look exactly like this, with user input in <b>bold</b>:
 </p>
 <pre>
 Choose an integer number between 0 and 1000:
-<b>42</b>
+<b>427</b>
 Hello World!
-User chose 42. Truly a wise choice.
+The magic number is 427!!!
 </pre>
 <p>
   Your code should be written in the provided <code>hello.asm</code> template file.
@@ -131,6 +131,6 @@ Navigate to the Lab assignment **lab03** on Gradescope and upload both files. *E
 <hr>
 <blockquote>
 <p><font size="1">
-Copyright 2019, Ziad Matni, CS Dept, UC Santa Barbara. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved
+Copyright 2020, Ziad Matni, CS Dept, UC Santa Barbara. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved
 </font></p> 
 </blockquote>
