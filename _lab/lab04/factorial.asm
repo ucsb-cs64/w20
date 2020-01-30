@@ -4,7 +4,7 @@
 
 # Assembly (NON-RECURSIVE) version of:
 #   int n, fn=1;
-#   cout << "Enter the number:\n";
+#   cout << "Enter a number:\n";
 #   cin >> n;
 #   for (int x = 2; x <= n; x++) {
 #       fn = fn * x;
