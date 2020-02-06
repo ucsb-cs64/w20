@@ -7,8 +7,6 @@ assigned: 2020-02-06 08:00:00.00-7
 due: 2020-02-14 23:59:59.00-7
 ---
 
-# WORK IN PROGRESS! DO NOT USE YET!!!
-
 # Lab 5: Functions in MIPS
 
 **Due Friday, February 14th at 11:59:59 PM**
@@ -20,20 +18,27 @@ due: 2020-02-14 23:59:59.00-7
 By the time you have completed this work, you should be able to call a predefined function properly.
 
 **Provided files:**
-[conversion.asm](/lab/lab05/conversion.asm)
-[print_array.asm](/lab/lab05/print_array.asm)
-[routines.asm](/lab/lab05/routines.asm)
+[conversion.asm](/w20/lab/lab05/conversion.asm)
+
+[print_array.asm](/w20/lab/lab05/print_array.asm)
+
+[routines.asm](/w20/lab/lab05/routines.asm)
 
 **Documentation:**
-[MIPS Reference Card](/lab/documentation/MIPS_reference_card.pdf)
-[SPIM Manual](/lab/documentation/spim.pdf) 
-[Grading Policies Regarding MIPS Assembly Instructions](/lab/documentation/mips_instruction_policy.html)
+[MIPS Reference Card](/w20/lab/documentation/MIPS_reference_card.pdf)
+
+[SPIM Manual](/w20/lab/documentation/spim.pdf) 
+
+[Grading Policies Regarding MIPS Assembly Instructions](/w20/lab/documentation/mips_instruction_policy.html)
+
 
 ## Step by Step Instructions
 
 You will perform 3 tasks. You may complete them in any order, though it is recommended to start with Task 1.
 You may use any ***approved*** MIPS instructions or psuedoinstructions you want in order to implement these tasks.
 The initial step below describes how to get the files you will need into the appropriate place.
+
+Remember that when writing assembly code for functions to always put the arguments into $a0/$a1 registers and the return into the $v0. Look at the instructions below for further hints.
 
 
 ### Initial Step: Create a Directory for This Lab and Copy Over the Files
@@ -118,6 +123,7 @@ int main(){
 ```
 
 Given: The variable s0 in main must be placed in register $s0 and variable s1 in routineA() must be placed in register $s1.
+
 Hint: Note that this is a nested function example - proceed with your knowledge of the MIPS Calling Convention.
 
 A skeleton assembly program that you will complete to write your code is available to you in the **print_array.asm** file.
