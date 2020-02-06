@@ -120,7 +120,7 @@ int routineA(int x, int y){
 int main(){
     int a = 5, b = 7;
     int s0 = routineA(a,b);
-    std::cout << c;
+    std::cout << s0;
 }
 ```
 
@@ -128,7 +128,7 @@ Given: The variable s0 in main must be placed in register $s0 and variable s1 in
 
 Hint: Note that this is a nested function example - proceed with your knowledge of the MIPS Calling Convention.
 
-A skeleton assembly program that you will complete to write your code is available to you in the **print_array.asm** file.
+A skeleton assembly program that you will complete to write your code is available to you in the **routines.asm** file.
 
 ## Turn in Everything Using Gradescope
 You are going to turn in THREE files into Gradescope.
