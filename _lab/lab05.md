@@ -48,7 +48,7 @@ Remember that when writing assembly code for functions to always put the argumen
 After you log in, go into your <code>cs64</code> directory that you created last time. Then create a new directory for this lab: <code>lab5</code> and then go into that directory. Finally, copy over all of the files necessary for this week's tasks:
 
 ```bash
-cp ~zmatni/public_html/cs64f19/labs/5/* .
+cp ~zmatni/public_html/cs64w20/labs/5/* .
 
 chmod +x ./*
 ```
