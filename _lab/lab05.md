@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: false
+ready: true
 desc: "Functions in MIPS"
 assigned: 2020-02-06 08:00:00.00-7
 due: 2020-02-14 23:59:59.00-7
