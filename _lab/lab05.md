@@ -18,6 +18,7 @@ due: 2020-02-14 23:59:59.00-7
 By the time you have completed this work, you should be able to call a predefined function properly.
 
 **Provided files:**
+
 [conversion.asm](/w20/lab/lab05/conversion.asm)
 
 [print_array.asm](/w20/lab/lab05/print_array.asm)
@@ -25,6 +26,7 @@ By the time you have completed this work, you should be able to call a predefine
 [routines.asm](/w20/lab/lab05/routines.asm)
 
 **Documentation:**
+
 [MIPS Reference Card](/w20/lab/documentation/MIPS_reference_card.pdf)
 
 [SPIM Manual](/w20/lab/documentation/spim.pdf) 
