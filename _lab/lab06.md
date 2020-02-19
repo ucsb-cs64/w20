@@ -46,7 +46,7 @@ By the time you have completed this work, you should be able to:
 [MIPS Calling Convention --- READ THIS!!](/w20/lab/documentation/callingconvention/calling_convention.html)
 
 
-##Step by Step Instructions
+## Step by Step Instructions
 
   You will perform two tasks for this week, some with multiple steps.
   You may complete them in any order, though it is recommended to start with Task 1, as Task 2 assumes you already understand Task 1.
@@ -66,7 +66,7 @@ By the time you have completed this work, you should be able to:
 
   The initial step below describes how to get the files you will need into the appropriate place.
 
-###Initial Step: Create a Directory for This Lab and Copy Over the Files
+### Initial Step: Create a Directory for This Lab and Copy Over the Files
 After you log in, go into your <code>cs64</code> directory that you created last time. Then create a new directory for this lab called **lab6** and cd into that directory. Now copy over all of the files necessary for this week's tasks:
 
 ```bash
@@ -77,16 +77,15 @@ chmod +x ./*
 
   Note the use of the trailing <code>.</code> in the above command, which stipulates that the specified files should be copied into the current directory. Also note that you may have to change file permissions once you copy them over using the <code>chmod</code> command.
 
-###Step 1: Instruction Decoding
+### Step 1: Instruction Decoding
 
  Processor simulators are used to evaluate implementation ideas long before processors are fabricated.
- These simulators read in  compiled programs and execute them, performing the functions and reporting performance statistics for the theoretical processor.
- They are written in high-level languages such as C and C++.
-
+ These simulators read in  compiled programs and execute them, performing the functions and reporting performance statistics for the theoretical processor. They are written in high-level languages such as C and C++.
 
  You are going to write one function in <code>DecodeCode.c</code> - a function that divides an instruction into its parts.
  An instruction is a single 32-bit value in which many smaller values have been packed together.
  The instruction format is in your textbook and on the MIPS Reference Card (and in your lecture notes).
+
  You do not need to read any of the text around it - all we care about is extracting fields <code>opcode</code>, <code>rs</code>, <code>rt</code>, <code>rd</code>, <code>immediate</code>, and <code>funct</code> (function code).
  Bit positions are expressed in an inclusive manner (e.g., bits 0 - 5 mean that all 6 bits are in the field).
 
@@ -132,7 +131,7 @@ Now you are ready to fill in the code!  Edit <code>DecodeCode.c</code>.
  Note that this is **not** intended as a comprehensive test suite, but is instead there to make sure you are on the right track.
  You are encouraged to add your own tests to this suite.
 
-##Task 2: Implement the <code>PrintReverse</code> Function
+## Task 2: Implement the <code>PrintReverse</code> Function
 
   For this task, you will implement the <code>PrintReverse</code> function in <code>functions.asm</code> using the MIPS calling convention.
   <code>PrintReverse</code> takes two arguments:
@@ -165,6 +164,7 @@ The <code>main</code> function provided in <code>functions.asm</code> calls <cod
   To help clarify which output you need to produce and which output is produced for you, output you **must** produce is marked in **bold**.
 
 <pre>
+
 Current Array:
 0 1 -1 5 32 6 -66 33 12 58 -4 64 
 **64**
@@ -214,7 +214,7 @@ jal ConventionCheck
 </pre>
 
 
-##Task 3: Implement the <code>IterativeMax</code> Function
+## Task 3: Implement the <code>IterativeMax</code> Function
 
   In this task, you will implement the <code>IterativeMax</code> function in <code>iterative_max.asm</code> using the MIPS calling convention.
   <code>IterativeMax</code> take two arguments:
@@ -329,7 +329,7 @@ jal ConventionCheck
 ./iterative_max_tester.pl
 </pre>
 
-##Turn in Everything Using Gradescope
+## Turn in Everything Using Gradescope
 
 You are going to turn in THREE files into Gradescope.
 Navigate to the Lab assignment **lab06** on Gradescope and upload both files. *Every student must upload their own code*.
