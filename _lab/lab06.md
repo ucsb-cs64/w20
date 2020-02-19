@@ -4,12 +4,14 @@ num: lab06
 ready: false
 desc: "MIPS Instructions & MIPS Calling Convention"
 assigned: 2020-02-20 08:00:00.00-7
-due: 2020-02-25 23:59:59.00-7
+due: 2020-02-27 23:59:59.00-7
 ---
 
 # Lab 6: MIPS Instructions & MIPS Calling Convention
 
-**Due Tuesday, February 25th at 11:59:59 PM**
+**Due Thursday, February 27th at 11:59:59 PM**
+
+This is a challenging lab, so plan accordingly.
 
 ## Goals for This Week
 
