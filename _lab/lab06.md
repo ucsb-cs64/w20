@@ -7,11 +7,12 @@ assigned: 2020-02-20 08:00:00.00-7
 due: 2020-02-25 23:59:59.00-7
 ---
 
-#Lab 6: MIPS Instructions & MIPS Calling Convention
+# Lab 6: MIPS Instructions & MIPS Calling Convention
 
 **Due Tuesday, February 25th at 11:59:59 PM**
 
-##Goals for This Week
+## Goals for This Week
+
 By the time you have completed this work, you should be able to:
 
 <ul>
