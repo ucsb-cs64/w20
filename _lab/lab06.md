@@ -25,6 +25,14 @@ By the time you have completed this work, you should be able to:
 
 **Provided files:**
 
+[DecodeCode.c](/w20/lab/lab06/DecodeCode.c)
+
+[DecodeCode.h](/w20/lab/lab06/DecodeCode.h)
+
+[DecodeCodeTester.c](/w20/lab/lab06/DecodeCodeTester.c)
+
+[DecodeMain.c](/w20/lab/lab06/DecodeMain.c)
+
 [functions.asm](/w20/lab/lab06/functions.asm)
 
 [functions_testing_stub.asm](/w20/lab/lab06/functions_testing_stub.asm)
@@ -79,7 +87,7 @@ chmod +x ./*
 
   Note the use of the trailing <code>.</code> in the above command, which stipulates that the specified files should be copied into the current directory. Also note that you may have to change file permissions once you copy them over using the <code>chmod</code> command.
 
-### Step 1: Instruction Decoding
+### Task 1: Instruction Decoding
 
  Processor simulators are used to evaluate implementation ideas long before processors are fabricated.
  These simulators read in  compiled programs and execute them, performing the functions and reporting performance statistics for the theoretical processor. They are written in high-level languages such as C and C++.
@@ -108,7 +116,7 @@ chmod +x ./*
 
  I have provided three files, only one of which you will turn in. You are free to edit either <code>.c</code> file, but you may not change the <code>.h</code> file (for if you do, it will not compile when it gets turned in).
 
-Once again, list the files you will be using.
+Once again, list the files you will be using:
 
 ```bash
 ls Decode*
