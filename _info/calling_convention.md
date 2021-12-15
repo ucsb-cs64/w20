@@ -63,7 +63,7 @@ title: MIPS Calling Convention for CS64
 </li>
 </ul>
 <p>
-      The rest of this document describes why we need a calling convention, and how the particular calling comvention used in this class works.
+      The rest of this document describes why we need a calling convention, and how the particular calling convention used in this class works.
       In all cases, when you are asked to implement something that obeys the MIPS calling convention, this means implementing something in accordance to the rules specified in this document.
 <b>In general, solutions that violate the rules specified in this document will receive no credit.</b>
       The reason why this is so severe is because solutions which violate the calling convention tend to be completely untestable; if we call into your code as part of a test harness, and then your code violates the calling convention, it means that the state of the test harness has likely been overwritten, meaning it will no longer work correctly.
